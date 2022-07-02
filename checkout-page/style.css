@@ -236,3 +236,12 @@ img {
   background: #E0E0E0;
   border-radius: 4px;
 }
+
+footer p {
+  padding: 60px 0 24px;
+  text-align: center;
+}
+
+footer strong {
+  font-weight: bold;
+}
