@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <form class="container">
+      <h1 class="main-heading">Checkout</h1>
+      <h2 class="section-heading">Contact information</h2>
+
+      <label class="input-label mb-2 mt-6">E-mail</label>
+
+      <div class="input-container">
+        <img src="./email.svg"/>
+        <input class="input" placeholder="Enter your email..."/>
+      </div>
+
+      <label class="input-label mb-2 mt-6">Phone</label>
+      <div class="input-container">
+        <img src="./phone.svg"/>
+        <input class="input" placeholder="Enter your phone..."/>
+      </div>
+
+      <h2 class="section-heading mt-16">Contact information</h2>
+
+      <label class="input-label mb-2 mt-6">Full name</label>
+      <div class="input-container">
+        <img src="./account.svg"/>
+        <input class="input" placeholder="Enter your account name..." value="Rodney Cotton"/>
+      </div>
+
+      <label class="input-label mb-2 mt-6">Address</label>
+      <div class="input-container">
+        <img src="./home.svg"/>
+        <input class="input" placeholder="Enter your address..." />
+      </div>
+
+      <label class="input-label mb-2 mt-6">City</label>
+      <div class="input-container">
+        <img src="./city.svg"/>
+        <input class="input" placeholder="Enter your account city..." />
+      </div>
+
+      <label class="input-label mb-2 mt-6">Country</label>
+      <div class="input-container">
+        <img src="./earth.svg"/>
+        <select class="input" placeholder="Enter your account city...">
+          <option value="" disabled selected>Your country..</option>
+          <option value="hurr">Durr</option>
+        </select>
+      </div>
+
+      <label class="input-label mb-2 mt-6">Postal code</label>
+      <div class="input-container">
+        <img src="./mailbox.svg"/>
+        <input class="input" placeholder="You postal code..." />
+      </div>
+
+      <div class="save-checkbox">
+        <input class="input" type="checkbox"/>
+        <label class="input-label">Save this information for next time</label>
+      </div>
+      
+      <button class="button-primary">Continue</button>
+      
+    </form>
+  </body>
+</html>
